@@ -67,7 +67,7 @@ function AppRouter() {
     <Loader />
   ) : (
     <Suspense fallback={<Loader />}>
-      <RouterProvider router={router} />;
+      <RouterProvider router={router} />
     </Suspense>
   );
 }
